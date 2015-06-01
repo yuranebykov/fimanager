@@ -1,0 +1,44 @@
+body {
+    background: #95e1fb;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.content {
+    float: left;
+    width: 40%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content button {
+    width: 80%;
+
+    background: #068fbf;
+    color: white;
+    border: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.content button:hover {
+    background: #05769e;
+    cursor: pointer;
+}
+
+.content input {
+    margin: 10px 0;
+    width: 80%;
+    background: #08a8df;
+    color: white;
+    border: 1px solid #0683ae;
+    padding: 5px;
+}
+
+.content p {
+    color: #333;
+    font-size: 0.8em;
+}
+
+.content img {
+    max-width: 100%;
+}

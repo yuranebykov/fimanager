@@ -2,9 +2,21 @@
 <html>
 <head>
 	<title>File Manager</title>
+    <link rel="stylesheet" href="/styles.css"/>
+    <script src="/fiManager/fiManager.js"></script>
 </head>
 <body>
-Hello, fishing manager!
+<div class="content">
+    <button fim-url="/data/cats.json" fim-setRes="cat">Get image about cat</button>
+    <input type="text" fim-showRes="cat"/>
+    <p fim-showRes="cat"></p>
+    <img fim-showRes="cat" src="" alt=""/>
+</div>
+<div class="content">
+    <button fim-url="/data/dogs.json" fim-setRes="dog">Get image about dog</button>
+    <input type="text" fim-showRes="dog"/>
+    <p fim-showRes="dog"></p>
+    <img fim-showRes="dog" src="" alt=""/>
 </div>
 </body>
 </html>

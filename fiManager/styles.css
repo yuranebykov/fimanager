@@ -1,0 +1,15 @@
+body {
+    background: #eee;
+}
+
+img {
+    max-width: 200px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    transition: opacity 0.2s ease-in-out;
+}
+
+img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
