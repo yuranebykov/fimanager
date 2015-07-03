@@ -7,7 +7,7 @@
         var scripts = document.getElementsByTagName('script');
         return scripts[scripts.length - 1].src.split('/').slice(0, -1).join('/') + '/';
     })();
-    
+
     if(window['jQuery'] === undefined) loadJQuery(init);
     else init();
 
@@ -121,6 +121,9 @@
 
     function renderWindow() {
         jQuery.get(fiManager.thatDomClickFiManager.url(), function(result) {
+
+            if(!jQuery.isArray(result)) result = JSON.parse(result);
+
             fiManager.listDom = [];
 
             for(var i = 0, l = result.length; i < l; i++) {
