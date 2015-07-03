@@ -1,8 +1,6 @@
 #Fish file manager
-----------------------
 
 ##Features:
-----------------
 1. Modern design
 2. Responsive design
 3. Multiple file uploads
